@@ -316,7 +316,7 @@ Events:
 <details><summary>CLICK ME</summary>
 <p>
 И если нам нужно откатиться то выполняем:
-```bash
+```python
 [docker@kuber ~]$ kubectl rollout status deployment/frontend
 Waiting for deployment "frontend" rollout to finish: 0 of 3 updated replicas are available...
 ``` 
