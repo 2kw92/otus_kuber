@@ -312,11 +312,13 @@ Events:
   Normal   Started    4m25s                kubelet            Started container server
   Warning  Unhealthy  47s (x21 over 4m7s)  kubelet            Readiness probe failed: HTTP probe failed with statuscode: 404
 ```
-<details> 
-  <summary>Q1: What is the best Language in the World? </summary>
+
+<details><summary>CLICK ME</summary>
+<p>
 И если нам нужно откатиться то выполняем:
-```
+```bash
 [docker@kuber ~]$ kubectl rollout status deployment/frontend
 Waiting for deployment "frontend" rollout to finish: 0 of 3 updated replicas are available...
 ``` 
+</p>
 </details>
